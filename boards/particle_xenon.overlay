@@ -6,6 +6,10 @@
 	};
 };
 
+&gpiote {
+	interrupts = <6 NRF_DEFAULT_IRQ_PRIORITY>;
+};
+
 &uart0 {
 	compatible = "nordic,nrf-uarte";
 	current-speed = <1000000>;

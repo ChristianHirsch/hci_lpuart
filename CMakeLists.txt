@@ -8,4 +8,5 @@ project(hci_lpuart)
 # NORDIC SDK APP START
 target_sources(app PRIVATE
 	${ZEPHYR_BASE}/samples/bluetooth/hci_uart/src/main.c
+	src/antenna.c
 )
